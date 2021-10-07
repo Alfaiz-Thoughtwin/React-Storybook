@@ -14,3 +14,6 @@ export const DangerSubscription = () => (
         <Danger />
     </>
 );
+
+
+// Approach 2 :
