@@ -11,6 +11,6 @@ export const Medium = () => ( <Input size="medium" placeHolder="Medium Size"/>);
 export const Large = () => ( <Input size="large" placeHolder="Large Size"/>);
 
 
-Small.storyName = "Small Input";
-Medium.storyName = "Medium Input";
-Large.storyName = "Large Input";
+Small.storyName = "Small-Input";
+Medium.storyName = "Medium-Input";
+Large.storyName = "Large-Input";
