@@ -26,3 +26,8 @@
 .danger {
     background-color: #f44336;
 }
+
+.dark {
+    background-color: black;
+    color: white;
+}
