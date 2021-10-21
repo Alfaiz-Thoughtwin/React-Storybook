@@ -44,14 +44,14 @@ export const TempBtn = styled.button<ITempBtn>`
 const App = () => {
   return (
     <>
-      <Container bgColor="black">
-        <Title isCenter color="orangered">
-          React - Storybook 🔥🔥🔥
-        </Title>
-      </Container>
-      <Container isCenter>
-        <TempBtn btn>Temporary</TempBtn>
-      </Container>
+        <Container bgColor="black">
+          <Title isCenter color="orangered">
+            React - Storybook 🔥🔥🔥
+          </Title>
+        </Container>
+        <Container isCenter>
+          <TempBtn btn>Temporary</TempBtn>
+        </Container>
     </>
   );
 };

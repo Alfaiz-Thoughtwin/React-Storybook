@@ -1,6 +1,6 @@
 import React from 'react';
-import {addDecorator} from '@storybook/react';
-import { Center } from '../src/components';
+// import {addDecorator} from '@storybook/react';
+// import { Center } from '../src/components';
 
 
 
@@ -21,4 +21,4 @@ export const parameters = {
 };
 
 
-addDecorator( story => <Center>{ story() }</Center> );
+// addDecorator( story => <Center>{ story() }</Center> );
