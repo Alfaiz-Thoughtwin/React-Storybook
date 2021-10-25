@@ -9,7 +9,7 @@ export default {
   component: Button,
   args: {
       children: "Button",
-      variant:'string'
+      variant:'string',
   },
   decorators: [story=><Center>{ story() }</Center>],
 } as Meta;
@@ -21,6 +21,7 @@ export const Secondary = () => <Button variant="secondary">Secondary</Button>;
 export const Success = () => <Button variant="success">Success</Button>;
 export const Danger = () => <Button variant="danger">Danger</Button>;
 export const Dark = () => <Button variant="dark">Dark</Button>
+export const LogBtn = () => <Button variant="primary">Log Button</Button>
 
 // Approach 2 :
 const Template: Story = (args:any):any => <Button {...args} />;
