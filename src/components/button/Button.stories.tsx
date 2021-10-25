@@ -1,5 +1,6 @@
 import React from "react";
 import { Meta, Story } from "@storybook/react";
+import {text, boolean} from '@storybook/addon-knobs';
 import { Button } from "./Button";
 import { Center } from '../center';
 
@@ -22,6 +23,7 @@ export const Success = () => <Button variant="success">Success</Button>;
 export const Danger = () => <Button variant="danger">Danger</Button>;
 export const Dark = () => <Button variant="dark">Dark</Button>
 export const LogBtn = () => <Button variant="primary">Log Button</Button>
+export const Knobs = () => <Button disabled={ boolean("Disabled", false) } >{ text("label", "Button Label") }</Button>
 
 // Approach 2 :
 const Template: Story = (args:any):any => <Button {...args} />;
