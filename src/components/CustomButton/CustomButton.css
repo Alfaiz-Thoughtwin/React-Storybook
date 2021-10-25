@@ -1,0 +1,17 @@
+.button {
+    border : none;
+    background-color: grey;
+    color : black;
+    padding : 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display : inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: black !important;
+    color : white !important;
+}
