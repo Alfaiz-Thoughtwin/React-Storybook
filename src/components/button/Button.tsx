@@ -5,6 +5,7 @@ import styled from "styled-components";
 interface IProps {
   variant?: any;
   children?: any;
+  disabled?: boolean;
 }
 
 interface IBtn {
