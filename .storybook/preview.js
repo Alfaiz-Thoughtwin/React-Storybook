@@ -3,6 +3,7 @@ import {  withConsole } from '@storybook/addon-console';
 import { addDecorator,addParameters } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withKnobs } from '@storybook/addon-knobs';
+import { withA11y } from '@storybook/addon-a11y';
 // import { Center } from '../src/components';
 
 
@@ -27,6 +28,7 @@ export const parameters = {
 // addDecorator( story => <Center>{ story() }</Center> );
 // addDecorator( story => withConsole(story)  );
 addDecorator(withKnobs);
+addDecorator(withA11y);
 
 
 addParameters({
