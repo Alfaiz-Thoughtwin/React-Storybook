@@ -2,7 +2,6 @@ import React from 'react';
 import { Meta, Story } from "@storybook/react";
 import { action, actions } from '@storybook/addon-actions';
 import { CustomButton } from './CustomButton';
-import { width } from '@mui/system';
 
 
 
